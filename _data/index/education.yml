@@ -1,0 +1,16 @@
+- name: Concordia University
+  link: https://www.concordia.ca/
+  date: May 2021
+  descr: >
+    <br> <ul>
+          <li>Bachelor of Science</li>
+          <li>Specialization&#58 Ecology</li>
+          <li>Major&#58 Psychology</li>
+        </ul>
+  logo_file: concordia.png
+
+- name: Dawson College
+  link: https://www.dawsoncollege.qc.ca/
+  date: May 2013
+  descr: <br> <ul> <li>DEC in Health Science</li></ul>
+  logo_file: dawson.png

@@ -1,14 +1,5 @@
 - name: About
   path: /
 
-#- name: Publication
-#  path: /publication.html
-
-#- name: Archive
-#  path: /archive.html
-
 - name: Projects
   path: /projects.html
-
-#- name: Tags
-#  path: /tags.html

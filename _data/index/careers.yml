@@ -1,0 +1,25 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Canadian Railway Services
+  link: https://canadianrailwayservices.ca/
+  date: Sep 2022 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Software Developer
+  descr: >-
+    <br><ul>
+    <li>Collaborated on the design and implementation of the company website.</li>
+    <li>Implemented a user-friendly platform for efficient complex engineering calculations, covering material capacity, stress points, load-bearing, and related parameters.</li>
+    </ul>
+  logo_file: crs.png
+
+- name:  Hospital for Birds & Exotic animals
+  link: http://www.birdandexoticvet.com/index_en.php
+  date: Sep 2017 - sep 2022
+  job: Senior Receptionist
+  descr: >-
+    <br><ul>
+    <li>Managed appointments, phone calls, and walk-in clients, ensuring a smooth workflow.</li>
+    <li>Facilitated communication between clients and veterinarians, including identifying and guiding clients in emergency
+        situations for prompt animal care.</li>
+    </ul>
+  logo_file: hospital_vet.png
+
