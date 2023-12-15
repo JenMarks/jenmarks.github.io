@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: Motivation, Java, Python, BS, Leadership, PyTorch, R, HTML, JavaScript
+percentage: 100, 65, 90, 0, 95, 85, 90, 100
