@@ -10,20 +10,20 @@ comments: false
 <div class="row project">
     <div class="col l3">
         {% if proj.round %}
-        <img style="max-height: 320px; border-radius: 50%;" src="{{ site.url }}/assets/img/{{ proj.visual }}" width="320px"/>
+        <img style="max-height: 250px; border-radius: 50%;" src="{{ site.url }}/assets/img/{{ proj.visual }}" width="250px"/>
         {% else %}
-        <img style="max-height: 320px;" src="{{ site.url }}/assets/img/{{ proj.visual }}" width="320px"/>
+        <img style="max-height: 250px;" src="{{ site.url }}/assets/img/{{ proj.visual }}" width="250px"/>
         {% endif %}
     </div>
     <div class="col l8 offset-l1">
-        <h2>{{ proj.name }}</h2>
+        <h2 class="secondary-text-color" style="margin-bottom: 0;">{{ proj.name }}</h2>
+        <div style="margin-top:-1.5em">
+            {{ proj.descr | markdownify }}
+        </div>
         {% if proj.github %}
         <a class="btn" href="{{ proj.github }}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
         {% endif %}
-        <a class="btn btn-info" href="{{ proj.full_report }}" target="_blank"><i class="fa fa-file-pdf-o"></i> Report</a>
-        <div class="content">
-            <p style="margin: 0">{{ proj.descr }}</p>
-        </div>
+        <a class="btn btn-info" href="{{ proj.full_report }}" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Report</a>
     </div>
 </div>
 {% endfor %}

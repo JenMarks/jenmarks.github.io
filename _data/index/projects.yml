@@ -1,6 +1,10 @@
-- name: Coming Soon!
-  descr:
-  github:
-  full_report:
-  visual:
-  round:
+- name: GPT as a Therapists
+  descr: >
+    Developed a distilled generative neural network using transformer architecture (`distil-gpt2`) to generate empathetic reflections 
+    in response to patient cases, addressing challenges in data acquisition and psychology domain expertise.
+    Implemented training, evaluation, and sequence generation processes with insights into attention mechanisms for model
+    behavior analysis and future optimization considerations, aiming for multilingual understanding and enhanced generative capabilities.
+  github: https://github.com/JenMarks/robo_therapist
+  full_report: https://jenmarks.github.io/robo_therapist/
+  visual: gpt-therapist.jpeg
+  round: true
