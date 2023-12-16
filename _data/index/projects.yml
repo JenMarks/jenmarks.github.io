@@ -5,6 +5,6 @@
     Implemented training, evaluation, and sequence generation processes with insights into attention mechanisms for model
     behavior analysis and future optimization considerations, aiming for multilingual understanding and enhanced generative capabilities.
   github: https://github.com/JenMarks/robo_therapist
-  full_report: https://jenmarks.github.io/robo_therapist/
+  full_report: /projects/robo_therapist.html
   visual: gpt-therapist.jpeg
   round: true
