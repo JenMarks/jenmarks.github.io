@@ -23,7 +23,8 @@ comments: false
         {% if proj.github %}
         <a class="btn" href="{{ proj.github }}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
         {% endif %}
-        <a class="btn btn-info" href="{{ proj.full_report }}" target="_self"><i class="fa fa-external-link-square" aria-hidden="true"></i> Report</a>
+        {% capture project_report_html %} {{ proj.full_report }} {% endcapture %}
+        <a class="btn btn-info" href="{{ project_report_html | strip |  relative_url }}" target="_self"><i class="fa fa-external-link-square" aria-hidden="true"></i> Report</a>
     </div>
 </div>
 {% endfor %}
