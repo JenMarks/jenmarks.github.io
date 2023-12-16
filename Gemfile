@@ -5,7 +5,6 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
   gem 'jekyll-analytics'
-  gem 'jekyll-target-blank'
   gem 'faraday-retry'
 end
 gem "webrick", "~> 1.8"
