@@ -87,7 +87,7 @@ of generating varying numbers of responses tailored to the user's preference.
 To showcase the model's functionality, we provided the following input: 
 > I have so many issues to address I have a history of sexual abuse I’m a breast cancer survivor and I am a lifetime 
 > insomniac I have a long history of depression and I’m beginning to have anxiety I have low self esteem but I’ve been
-> happily married for almost 35 years  I’ve never had counseling about any of this. Do I have too many issues to address in counseling."
+> happily married for almost 35 years  I’ve never had counseling about any of this. Do I have too many issues to address in counseling.
  
 We instructed the model to produce 3 highly probable responses. The generated responses are outlined below:
 
