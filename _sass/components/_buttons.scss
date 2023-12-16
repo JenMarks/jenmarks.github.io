@@ -77,16 +77,16 @@
 
 // Information button
 .btn-info {
-  background-color: $info;
+  background-color: $quaternary;
   color: $white;
-  border-color: $info;
+  border-color: $quaternary;
   &:visited {
-    border-color: $info;
+    border-color: $quaternary;
     color: $white;
   }
   &:hover {
     background-color: $white;
-    color: $info;
-    border-color: $info;
+    color: $quaternary;
+    border-color: $quaternary;
   }
 }
