@@ -91,9 +91,9 @@ To showcase the model's functionality, we provided the following input:
  
 We instructed the model to produce 3 highly probable responses. The generated responses are outlined below:
 
- 1. `Yes, there are plenty of issues that you might want to address, but perhaps the most important are the ones you have worked through before you have had counseling.`
- 2. `Hi there.`
- 3. `Unfortunately, what you have is too many issues to address in counseling.`
+ 1. _Yes, there are plenty of issues that you might want to address, but perhaps the most important are the ones you have worked through before you have had counseling._
+ 2. _Hi there._
+ 3. _Unfortunately, what you have is too many issues to address in counseling._
 
 Upon analyzing these responses, it's evident that response number 1 presents an adequate and empathetic suggestion.
 The second response, although neutral, could potentially serve as a starting point or complement to the first response.
