@@ -1,4 +1,4 @@
-# The Disambiguator
+<h1 class="tertiary-text-color"> The Disambiguator </h1>
 
 ## Summary
 
