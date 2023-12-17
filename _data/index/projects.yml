@@ -5,6 +5,18 @@
     Implemented training, evaluation, and sequence generation processes with insights into attention mechanisms for model
     behavior analysis and future optimization considerations, aiming for multilingual understanding and enhanced generative capabilities.
   github: https://github.com/JenMarks/robo_therapist
-  full_report: /projects/robo_therapist.html
+  nickname: robo_therapist
   visual: gpt-therapist.jpeg
+  round: true
+
+
+- name: The Disambiguator
+  descr: >
+    The goal of this project is to develop a bi-LSTM model trained to distinguish between the proper use of `the` and `a` in a given text.
+    The disambiguation model is tested on Charles Dickens' "A Tale of Two Cities" and resides in the project's repository.
+    Our training dataset is created from other Dickens' works, by masking every instance of `the` and `a` in the texts and training the model to predict the correct instance label.
+    For further details on this project have a look at the **Report**.
+  github: https://github.com/JenMarks/disambiguation
+  nickname: disambiguation
+  visual: disambiguation.png
   round: true
